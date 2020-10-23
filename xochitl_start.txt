@@ -1,0 +1,44 @@
+Registering exit handlers
+42:33.500 [02;32m                         we're running on an epaper device[0;37m (int main(int, char**) /usr/src/debug/xochitl/2.3+gitAUTOINC+3ccb7cc15b-r0/git/src/main.cpp:139)[0m
+Reading waveforms from /usr/share/remarkable/320_R292_AFBC21_ED103TC2M1_TC.wbf
+Running INIT (111 phases)
+42:35.250 [02;32m                         SWTCON initialized \o/[0m
+42:35.259 [02;32m                         EPD platform plugin loaded![0m
+42:35.261 [01;33m                         QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'[0m
+42:35.268 [02;32m                         evdevtouch: Using device discovery[0m
+42:35.274 [02;32m                         evdevtouch: Adding device at "/dev/input/event2"[0m
+42:35.275 [02;32m                         evdevtouch: Using device /dev/input/event2[0m
+42:35.275 [02;32m                         evdevtouch: /dev/input/event2: Protocol type B  (multi), filtered=no[0m
+42:35.275 [02;32m                         evdevtouch: /dev/input/event2: min X: 0 max X: 1403[0m
+42:35.276 [02;32m                         evdevtouch: /dev/input/event2: min Y: 0 max Y: 1871[0m
+42:35.276 [02;32m                         evdevtouch: /dev/input/event2: min pressure: 0 max pressure: 0[0m
+42:35.276 [02;32m                         evdevtouch: /dev/input/event2: device name: cyttsp5_mt[0m
+42:35.474 [01;33m                         Empty filename passed to function[0m
+42:35.729 [02;32mLoadingBlock             > Loading[0;37m (LoadingBlock(bool) /usr/src/debug/xochitl/2.3+gitAUTOINC+3ccb7cc15b-r0/git/src/shared/include/shared/loadingthread.h:80)[0m
+42:35.730 [02;32mLoadingBlock             Starting loading[0;37m (LoadingBlock(bool) /usr/src/debug/xochitl/2.3+gitAUTOINC+3ccb7cc15b-r0/git/src/shared/include/shared/loadingthread.h:83)[0m
+42:36.638 [01;33m                         Could not attach Keys property to:  QQuickWindowQmlImpl_QML_289(0xe77d68)  is not an Item[0m
+42:36.828 [01;33m                         Could not create scene graph context for backend 'epaper' - check that plugins are installed correctly in /usr/lib/plugins[0m
+42:37.177 [02;32m                         Creating window[0m
+42:37.204 [02;32mLoadingBlock             < Loading[0;37m (~LoadingBlock() /usr/src/debug/xochitl/2.3+gitAUTOINC+3ccb7cc15b-r0/git/src/shared/include/shared/loadingthread.h:92)[0m
+42:37.205 [02;32mLoadingBlock             Stopping loading[0;37m (~LoadingBlock() /usr/src/debug/xochitl/2.3+gitAUTOINC+3ccb7cc15b-r0/git/src/shared/include/shared/loadingthread.h:96)[0m
+42:37.515 [02;32mLoadingBlock             Stopped loading[0;37m (~LoadingBlock() /usr/src/debug/xochitl/2.3+gitAUTOINC+3ccb7cc15b-r0/git/src/shared/include/shared/loadingthread.h:98)[0m
+42:37.516 [02;32m                         evdevtouch: Updating QInputDeviceManager device count: 1  touch devices, 0 pending handler(s)[0m
+42:37.520 [01;32m                         wlan0: Link is up[0m
+42:37.527 [02;32m                         > Loading[0m
+42:37.527 [02;32m                         Starting loading[0m
+42:37.530 [01;32m                         wlan0: Address added: 192.168.42.94[0m
+42:37.532 [01;32m                         wlan0: Address added: fe80::ce4b:73ff:feb3:2d4e[0m
+42:37.562 [01;33m                         FIXME: mipmap filtering not supported[0m
+42:37.562 [01;33m                         FIXME: wrapmode not supported[0m
+42:37.562 [01;33m                         FIXME: wrapmode not supported[0m
+42:37.562 [01;33m                         FIXME, setting node inner target rect for image node not supported: QRectF(0,0 372x60)[0m
+42:37.562 [01;33m                         FIXME: mirroring not supported[0m
+42:37.686 [01;33m                         No worker![0m
+42:37.794 [01;32m                         Got gateway: 192.168.42.1[0m
+42:37.798 [01;32m                         We probably have Internet[0m
+42:37.856 [02;32m                         	 virtual Entry::SharedPtr Library::loadEntry(const QString&) 27 ms  *** ON GUI THREAD ***[0m
+42:37.974 [02;32m                         	 virtual Entry::SharedPtr Library::loadEntry(const QString&) 27 ms  *** ON GUI THREAD ***[0m
+42:38.191 [02;32m                         < Loading[0m
+42:38.191 [02;32m                         Stopping loading[0m
+42:38.230 [02;32m                         Stopped loading[0m
+42:38.231 [02;32m                         	 void Library::load() 703 ms  *** ON GUI THREAD ***[0m
